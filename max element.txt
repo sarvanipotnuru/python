@@ -1,0 +1,17 @@
+
+#finding max element in array 
+#str = [1,7,3,4,5,6,9]
+# max_element = str[0]
+# for i in range(len(str)):
+#     if str[i] >= max_element:
+#          max_element = str[i]
+# print(max_element)
+
+
+
+# a = [23,45,27,89,9]
+# a.sort()
+# print(a[-1])
+ 
+arr = [10, 89, 9, 56, 4, 80, 8]
+print (max(arr))

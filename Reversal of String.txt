@@ -1,0 +1,7 @@
+str = "Sarvani"  
+print(str[::-1])
+
+def myfunction(s):
+    return s[::-1]
+print(myfunction("santhosh")) 
+    

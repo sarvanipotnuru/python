@@ -1,0 +1,27 @@
+# checking whether string is a palindrome or not
+def ispalindrome(s):
+    rev = ''.join(reversed(s))
+    if(s==rev):
+        return True
+    return False
+    
+ 
+ans = ispalindrome("malayalam" )
+if(ans):
+    print("yes")
+else:
+    print("no")
+    
+    
+
+x = "sarvani"
+
+w = ""
+for i in x:
+    w = i + w
+
+if (x == w):
+    print("Yes")
+else:
+    print("No")
+    
