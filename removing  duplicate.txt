@@ -1,0 +1,20 @@
+test = [1,2,2,3,4,4,5,5,5,5,6,7,8,9]
+print(test)
+test = list(set(test))
+print(test)
+
+test1 = [1,23,34,56,66,66,666,7,8,9]
+print(test1)
+res = []
+[res.append(x) for x in test1 if x not in res]
+print(str(res))
+
+
+
+
+
+from collections import OrderedDict
+test3 = [1,2,12,12,3,4,12,4,4,5,6,7]
+print(list(OrderedDict.fromkeys(test3)))
+
+
